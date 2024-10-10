@@ -10,7 +10,7 @@ class TestFlaskApp(unittest.TestCase):
         result = self.app.get('/')
         self.assertEqual(result.status_code, 200)
         self.assertIn(b'Hello, World!', result.data)
-
+#made a small change to whitespace
 if __name__ == '__main__':
     unittest.main()
 
